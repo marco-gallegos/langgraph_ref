@@ -66,6 +66,8 @@ def node1(state: GraphState) -> dict:
     """
     raw_text = state['rawText']
     prompt = f"improve this text writing and translate it to english: '{raw_text}'."
+
+    print(" ========  EXECUTING NODE 1 ======== ")
     
     out_string = llm.invoke(prompt).content
     print(f"defined text:\n{out_string}")
