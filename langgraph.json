@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "mybot": "./graph.py:graph"
+  },
+  "python_version": "3.13"
+}

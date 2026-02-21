@@ -104,4 +104,11 @@ graph = workflow.compile()
 
 
 # 5 - Run the graph or import it
+#
+# 5.1 langgraph cli can help debuging online or with studio
+# uv add langgraph-cli[inmem]
+#
+# NOTE: dont forget add langgraph.json, refer this project as example
+#
+# uvx --from langgraph-cli langgraph dev 
 

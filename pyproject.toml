@@ -3,10 +3,12 @@ name = "langgraph-ref"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
-    "fastapi>=0.129.0",
-    "langchain>=1.2.10",
-    "langchain-openai>=1.1.10",
-    "langgraph>=1.0.9",
+  "fastapi>=0.129.0",
+  "langchain>=1.2.10",
+  "langchain-openai>=1.1.10",
+  "langgraph>=1.0.9",
+  "langgraph-api>=0.7.50",
+  "langgraph-cli[inmem]>=0.4.12",
 ]
